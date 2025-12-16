@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+@import url('light.css');
+
+body {
+  background-color: #212529; /* Dark background */
+  font-family: "VT323";
+  color: #00c939;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+code {
+  font-family: "Kode Mono";
+  font-size: 0.6em;
+  color: #67a87a;
+  background-color: #1f1f1f;
+  border: 0.5px solid #000000;
+  border-radius: 2px;
+}
+
+hr {
+  color: #45ab3c;
+}
+
+a {
+  color: #7c78ff;
+}
+
+.btn-dark {
+  font-family: 'VT323', monospace; /* font family */
+  font-size: 14px; /* font size */
+  background-color: #1a1a1a; /* dark background color */
+  color: #ffffff; /* white text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.file-info {
+  font-size: 12px; /* smaller font size for file info */
+  color: #cccccc; /* light gray color for file info */
+  margin-right: 5px;
+}
+
+.file-size {
+  margin-right: 2px;
+}
+
+.file-ext {
+  font-style: italic;
+}
+
+.toc {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+}
+
+.toc tr {
+  border-bottom: 1px solid #333333;
+}
+
+.toc tr:last-child {
+  border-bottom: none;
+}
+
+.toc th {
+  text-align: left;
+  padding: 10px;
+}
+
+.toc td {
+  padding: 10px;
+}
+
+.toc a {
+  color: #10bf00;
+  text-decoration: none;
+}
+
+.toc a:hover {
+  color: #ffffff;
+}
+
+.title {
+  font-family: "VT323";
+  color: #00c939 !important;
+}
+
+/* Mobile styles (screen width < 600px) */
+@media (max-width: 599px) {
+  .navbar {
+    transform: scale(0.4);
+    left: 36% !important;
+  }
+}
+
+.scroll-bar::-webkit-scrollbar {
+    width: 7px;
+  }
+
+.scroll-bar::-webkit-scrollbar-track {
+    background: #313131;
+    border-radius: 25px;
+  }
+  
+.scroll-bar::-webkit-scrollbar-thumb {
+    background: #1cd941;
+    border-radius: 25px;
+    border:0px solid #41435f;
+  }
+                
+/* Search Bar */
+input[type="search"] {
+  width: 80%;
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "VT323";
+}
